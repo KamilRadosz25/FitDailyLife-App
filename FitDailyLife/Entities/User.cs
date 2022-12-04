@@ -12,6 +12,7 @@ namespace FitDailyLife.Entities
         public DateTime? DateOfBirth { get; set; }
         public string Nationality { get; set; }
         public string PasswordHash { get; set; }
+        public bool IsAdmin { get; set; }
         public virtual List<BodyParameters> BodyParameters { get; set; }
 
 
